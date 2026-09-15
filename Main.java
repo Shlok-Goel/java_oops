@@ -16,6 +16,7 @@ class Main{
             arr[i]=sc.nextInt();
         }
 
+        
         //deleting duplicate entries
         for(int i=0;i<arr.length;i++){
             for(int j=1;j<arr.length-i;j++){
